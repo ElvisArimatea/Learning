@@ -6,10 +6,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/Features/aprender_cucumber.feature",
+		features = "src/test/resources/Features/alugar_filme.feature",
 		glue = "steps",
-		plugin = "pretty"
-		
+		plugin = "pretty",
+		tags = ""
 		)
 public class Runner {
 
